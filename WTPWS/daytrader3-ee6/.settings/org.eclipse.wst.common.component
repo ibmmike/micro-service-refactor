@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="daytrader3-ee6">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="Rest.war" deploy-path="/" handle="module:/resource/Rest/Rest">
+            <dependent-object>Module_1500991637760</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="web.war" deploy-path="/" handle="module:/resource/web/web">
+            <dependent-object>Module_1500991637931</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dt-ejb.jar" deploy-path="/" handle="module:/resource/dt-ejb/dt-ejb">
+            <dependent-object>Module_1500991637979</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
